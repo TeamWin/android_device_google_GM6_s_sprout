@@ -17,7 +17,7 @@
 LOCAL_PATH := device/google/GM6_s_sprout
 
 # Init scripts
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     factory_init.project.rc \
     factory_init.rc \
     meta_init.modem.rc \

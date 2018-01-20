@@ -108,10 +108,9 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_SYSTEM_PROP := device/google/GM6_s_sprout/build.prop
 
 # TWRP
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/recovery.fstab
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_DEFAULT_LANGUAGE := tr
-TW_DEVICE_VERSION := 0 by Rygebin
 RECOVERY_SDCARD_ON_DATA := true
 TW_THEME := portrait_hdpi
 TW_INTERNAL_STORAGE_PATH := "/data/media"
